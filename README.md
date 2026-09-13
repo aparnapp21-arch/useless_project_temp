@@ -58,14 +58,55 @@ streamlit run app.py
 
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1600" height="1058" alt="WhatsApp Image 2026-09-13 at 12 38 17 PM" src="https://github.com/user-attachments/assets/a09a808e-12af-42b7-bc21-f0a9832997e7" />
+
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1600" height="938" alt="WhatsApp Image 2026-09-13 at 12 38 16 PM" src="https://github.com/user-attachments/assets/45bf00bf-36f8-40e1-a1c7-97c9bd17818e" />
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+┌──────────────────────┐
+                 │        USER          │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+              ┌─────────────────────────┐
+              │     WEB INTERFACE       │
+              │    HTML + CSS + JS      │
+              └────────────┬────────────┘
+                           │
+                           ▼
+              ┌─────────────────────────┐
+              │     FLASK BACKEND       │
+              │       server.py         │
+              └────────────┬────────────┘
+                           │
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+      ┌────────────┐ ┌────────────┐ ┌────────────┐
+      │   RECIPE   │ │   PHOTO    │ │   VIDEO    │
+      │  ANALYSIS  │ │  ANALYSIS  │ │  ANALYSIS  │
+      └─────┬──────┘ └─────┬──────┘ └─────┬──────┘
+            │              │              │
+            ▼              ▼              ▼
+      ┌────────────┐ ┌────────────┐ ┌────────────┐
+      │   Random   │ │  OpenCV    │ │  OpenCV    │
+      │   Forest   │ │  Features  │ │   Motion   │
+      │ Regression │ │            │ │  Analysis  │
+      └─────┬──────┘ └─────┬──────┘ └─────┬──────┘
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+              ┌─────────────────────────┐
+              │  CONSISTENCY SCORE      │
+              └────────────┬────────────┘
+                           ▼
+              ┌─────────────────────────┐
+              │ THIN / MEDIUM / THICK  │
+              │      / VERY THICK       │
+              └─────────────────────────┘
 
 For Hardware:
 
@@ -81,14 +122,16 @@ For Hardware:
 *List out all components shown*
 
 ![Build](Add photos of build process here)
-*Explain the build steps*
+“First, the user provides recipe, photo, or video input. The HTML interface sends it to our Flask backend. The backend uses Random Forest for recipe prediction and OpenCV for photo and video analysis. The extracted information is converted into a consistency score, which is finally classified as Thin, Medium, Thick, or Very Thick.”
 
 ![Final](Add photo of final product here)
-*Explain the final build*
+
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+https://drive.google.com/open?id=10tJY10EyBtxnZFgybAje2de5Hcf2xdKP&usp=drive_copy
+
+
 *Explain what the video demonstrates*
 
 # Additional Demos
