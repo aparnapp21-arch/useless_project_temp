@@ -15,41 +15,47 @@
 
 
 ### Project Description
-[2-3 lines about what your project does]
+Payasam is a computer vision and machine learning-based system that analyzes payasam preparation using video data. It detects motion patterns and provides useful insights to help monitor and improve the consistency of the preparation process.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We decided to give payasam its very own AI assistant! 🍚🤖 Our system uses computer vision and machine learning to watch the preparation, analyze movement patterns, and generate useful insights. Because apparently, even payasam needs a little AI supervision! 😄
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- **Languages used:** Python
+- **Frameworks used:** Streamlit
+- **Libraries used:** OpenCV, NumPy, Pandas, Matplotlib, Scikit-learn
+- **Tools used:** Visual Studio Code, Git, GitHub, Python Virtual Environment
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
+- **Main components:** Laptop/PC, Webcam
+- **Specifications:** Standard computer capable of running Python, Streamlit, and machine learning models; webcam for video input
+- **Tools required:** Laptop/PC, Webcam, USB cable (for external webcam)
 ### Implementation
+
 For Software:
+
 # Installation
-[commands]
+
+```bash
+git clone https://github.com/aparnapp21-arch/useless_project_temp.git
+cd useless_project_temp
+pip install -r requirements.txt
 
 # Run
-[commands]
 
-### Project Documentation
-For Software:
+```bash
+streamlit run app.py
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
+<img width="1385" height="689" alt="Screenshot 2026-09-13 111703" src="https://github.com/user-attachments/assets/d3f4d3cd-91cd-478d-b4c4-9854f4db24c8" />
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
